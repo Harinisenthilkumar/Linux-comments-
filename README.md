@@ -40,3 +40,72 @@ nano file_name
 	a simple editor for working with files in CUI
 	Ctrl+O and the given the filename to save the file
 	Ctrl+X to exit the editor
+
+
+
+
+
+
+
+
+
+
+
+🔹 File and Directory Management
+Command	Description
+ls	List directory contents
+cd [dir]	Change directory
+pwd	Show current directory
+mkdir [dir]	Create new directory
+rm [file]	Remove file
+rm -r [dir]	Remove directory recursively
+cp [src] [dest]	Copy file or directory
+mv [src] [dest]	Move or rename file/directory
+touch [file]	Create a new empty file
+find [dir] -name [file]	Search for files
+
+🔹 File Viewing and Editing
+Command	Description
+cat [file]	View file contents
+less [file]	View file with navigation
+head [file]	Show beginning of file
+tail [file]	Show end of file
+nano [file]	Simple command-line text editor
+vim [file]	Powerful text editor
+
+🔹 Permissions and Ownership
+Command	Description
+x 
+chown [user]:[group] [file]	Change file owner
+
+🔹 Process and System Management
+Command	Description
+ps aux	List all running processes
+top	Real-time process monitoring
+kill [PID]	Terminate process by PID
+htop	Interactive process viewer (if installed)
+df -h	Show disk space usage
+du -sh [dir]	Show size of a directory
+free -h	Show memory usage
+uptime	Show system uptime and load
+
+🔹 Networking
+Command	Description
+ping [host]	Test network connection
+ifconfig or ip a	Show IP address and interfaces
+netstat -tuln	Show active ports (deprecated, use ss)
+ss -tuln	Show listening sockets
+curl [url]	Transfer data from/to server
+wget [url]	Download files
+
+🔹 Package Management (Ubuntu/Debian)
+Command	Description
+sudo apt update	Update package list
+sudo apt upgrade	Upgrade installed packages
+sudo apt install [pkg]	Install a package
+sudo apt remove [pkg]	Remove a package
+
+
+
+
+ 
